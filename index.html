@@ -39,30 +39,35 @@
             <div class="line"></div>
             <div class="mainbody">
                 <div class="leftside">
-
-
+                    <!--Skiils Column -->
                 <span class="title">MY SKILLS</span><br><br><div>
                 <div class="skill"><span><input type="checkbox" class="input-checkbox"></span><span><i class="fas fa-chevron-circle-right"></i></span>   <span contenteditable="true">write your skill here</span></div>
                 <div id="skills"></div>
                 <button id="skilladd" type="button" class="btn btn-success" onclick="addskill()"><i class="fas fa-plus-circle"></i> Skill</button>
                 <button id="skillrem" type="button" class="btn btn-danger" onclick="remskill(event)"><i class="fas fa-minus-circle"></i> Skill</button></div>
+                
+                
+                <!--Languages Column -->
                 <br><br><span class="title">LANGUAGES</span><br><br><div>
                 <div class="language"><span><input type="checkbox" class="input-checkbox"></span><span contenteditable="true">LANGNAME</span> - <span contenteditable="true">level u know</span></div>
                 <div id="languages"></div>
                 <button id="langadd" type="button" class="btn btn-success" onclick="addLang()"><i class="fas fa-plus-circle"></i> Language</button>
-
                 <button id="langrem" type="button" class="btn btn-danger" onclick="remLang(event)"><i class="fas fa-minus-circle"></i> Language</button></div>
+                
+                
+                <!-- Achievemnets Column-->
                 <br><br><span class="title">ACHIEVEMENTS</span><br><br><div>
                 <div class="achieve" ><span><input type="checkbox" class="input-checkbox"></span><span contenteditable="true">Write your achievement</span></div>
                 <div id="achievement"></div>
                 <button id="achadd" type="button" class="btn btn-success" onclick="addAch()"><i class="fas fa-plus-circle"></i> Achievement</button>
-
                 <button id="achrem" type="button" class="btn btn-danger" onclick="remAch(event)" style="margin-top: 0;"><i class="fas fa-minus-circle"></i> Achievement</button></div>
+               
+               
+               <!-- Interests Column-->
                 <br><br><span class="title">INTERESTS</span><br><br><div>
                 <div class="achieve" ><span><input type="checkbox" class="input-checkbox"></span><span contenteditable="true">Write interest</span></div>
                 <div id="interest"></div>
                 <button id="Intadd" type="button" class="btn btn-success" onclick="addInt()"><i class="fas fa-plus-circle"></i> Interest</button>
-
                 <button id="Intrem" type="button" class="btn btn-danger" onclick="remInt(event)"><i class="fas fa-minus-circle"></i> Interest</button></div>
                 </div>
 
@@ -83,7 +88,6 @@
                 </div>
 
                 <button id="eduadd" type="button" class="btn btn-success" onclick="addedu()"><i class="fas fa-plus-circle"></i> Education</button>
-
                 <button id="edurem" type="button" class="btn btn-danger" onclick="remedu(event)"><i class="fas fa-minus-circle"></i> Education</button></div>
                 <br><br>
                 <div class="new-section-div"><div><span><input type="checkbox" class="input-checkbox"></span><span class="title" contenteditable="true">NEW SECTION</span><br><br>
@@ -94,7 +98,6 @@
 
                 <div id="newsec"></div>
                 <button id="secadd" type="button" class="btn btn-success" onclick="addsec()"><i class="fas fa-plus-circle"></i> Section</button>
-
                 <button id="secrem" type="button" class="btn btn-danger" onclick="remsec(event)"><i class="fas fa-minus-circle"></i> Section</button>
             </div>
             </div>
@@ -102,6 +105,8 @@
      </div>
     </body>
 
+
+    <!--These are the link of how i am connection html with js file  -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.8.0/html2pdf.bundle.min.js"></script>
     <script src="script.js"></script>

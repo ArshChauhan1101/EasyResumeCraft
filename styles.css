@@ -167,3 +167,7 @@ transform: translate(-60%,-4.8%);
     font-weight: 700;
     font-size: 17px;
 }
+.name-container {
+    display: flex;
+    flex-direction: column;
+}
